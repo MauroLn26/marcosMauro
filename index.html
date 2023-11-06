@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Imagens/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="Estilos/index.css">
+    <title>Projeto_01</title>
+</head>
+<body>
+    <header>
+        <div>
+            <a href="index.html">
+                <img class="img-logo" src="Imagens/logo.png" alt="logo">
+            </a>
+        </div>
+        <div class="search">
+            <input placeholder="Pesquise aqui..." id="input_search" type="text">
+            <img class="img-search" src="Imagens/search.png" alt="">
+        </div>
+        <div>
+            <ul class="Lista_Cabeçalho">
+                <li class="bt_menu"><a href="index.html">Home</a></li>
+                <li class="bt_menu"><a href="">Login</a></li>
+                <li> <a href="#"><img id="img-carrinho" src="Imagens/carrinho.png" alt="Carrinho"></a></li>
+            </ul>
+        </div>
+    </header>
+    <nav class="nav_Categorias">
+        <div class="menu">
+            <button class="bt_nav" onmouseover="showOptions(this)">Camisetas</button>
+            <div class="submenu">
+                    <div class="bts">
+                        <button> Camisetas Femininas </button>
+                        <button> Camisetas Masculinas </button>
+                        <button> Camisetas Unisex </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="menu">
+            <button class="bt_nav" onmouseover="showOptions(this)">Shorts</button>
+            <div class="submenu">
+                <div class="bts">
+                    <button> Shorts Femininas</button>
+                    <button> Shorts Mascubuttonnas</button>
+                    <button> Shorts Unisex</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu">
+            <button class="bt_nav" onmouseover="showOptions(this)">Calças</button>
+            <div class="submenu">
+                <div class="bts">
+                    <button> Calças Femininas</button>
+                    <button> Calças Mascubuttonnas</button>
+                    <button> Calças Unisex</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu"> 
+            <button class="bt_nav" onmouseover="showOptions(this)">Moletons</button>
+            <div class="submenu">
+            
+                <div class="bts">
+                    <button> Moletons Femininas</button>
+                    <button> Moletons Masculinas</button>
+                    <button> Moletons unisex</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="menu">
+            <button class="bt_nav" onmouseover="showOptions(this)">Calçados</button>
+            <div class="submenu">
+            
+                <div class="bts">
+                    <button> Calçados Femininas</button>
+                    <button> Calçados Masculinas</button>
+                    <button> Calçados unisex</button>
+                </div>
+            
+            </div>
+        </div>
+
+        <div class="menu">
+            <button class="bt_nav" onmouseover="showOptions(this)">Lingerie</button>
+            <div class="submenu">
+                    <div class="bts">
+                        <button> Lingerie Femininas</button>
+                        <button> Lingerie Masculinas</button>
+                        <button> Lingerie unisex</button>
+                    </div>
+            </div>
+        </div>
+
+    </nav>     
+    <main>
+        <div class="div_01">
+        </div>
+        <div class="destaques">
+            <h1>Destaques Semanais</h1>
+            <div id="conteudo_card"></div>
+        </div>
+        
+    </main>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
+
